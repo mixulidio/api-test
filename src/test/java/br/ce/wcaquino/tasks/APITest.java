@@ -1,11 +1,11 @@
 package br.ce.wcaquino.tasks;
 
-import static org.junit.Assert.assertTrue;
+import org.hamcrest.CoreMatchers;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
-import org.junit.*;
-import io.restassured.*;
-import io.restassured.http.*;
-import org.hamcrest.*;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 
 public class APITest {
 
